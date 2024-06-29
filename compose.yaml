@@ -24,7 +24,7 @@ services:
 
   vault:
     image: vault:1.13.3
-    container_name: vault_2
+    # container_name: vault_2
     restart: on-failure:10
     ports:
       - "8201:8201"
