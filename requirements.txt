@@ -18,4 +18,4 @@ python-dotenv==1.0.1
 hvac==2.2.0
 confluent-kafka
 kafka_python==2.0.2
-
+packaging
