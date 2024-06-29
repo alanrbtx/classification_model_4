@@ -56,7 +56,7 @@ services:
 
   consumer:
     image: consumer:0.1
-    container_name: consumer
+    container_name: consumer_1
 
   # consumer:
   #   image: 
