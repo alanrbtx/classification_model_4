@@ -40,7 +40,7 @@ services:
   
   kafka:
     hostname: kafka
-    container_name: kafka_1
+    # container_name: kafka_1
     image: bitnami/kafka:latest
     ports:
           - 9092:9092
@@ -57,7 +57,7 @@ services:
 
   consumer:
     image: consumer:0.1
-    container_name: consumer_1
+    # container_name: consumer_2
 
   # consumer:
   #   image: 
